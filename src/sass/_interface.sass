@@ -1,0 +1,26 @@
+//  Все настройки кнопок, ссылок. Прописываем стили, которые относятся ко всему сайту 
+body
+  font-family: sans-serif
+
+// Правило для всех картинок, сбросить настройки на максимальную ширину на 100%, это всегда нужно делать в верстке, так чтобы она не ломалась
+img
+  max-width: 100%
+.container
+  width: 1170px
+  margin: auto
+
+// На экранах чья максимальная ширина 1200px у нас будут применяться следующие правила
+@media (max-width: 1200px)
+  .container
+    width: 760px
+// правило, которое будет включаться для ширины меньше, чем 768
+@media (max-width: 768px)
+  .container
+    width: 580px
+    width: 95%
+
+.button
+  border-radius: 10px
+  background-color: $main-color
+  border: none
+  padding: 18px 30px

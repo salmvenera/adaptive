@@ -1,0 +1,6 @@
+{
+"open-in-Browser.default": "Firefox",
+"open-in-browser.default": "firefox",
+"references.preferredLocation": "view",
+"files.autoSave": "onWindowChange"
+}

@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/src/css/normalize.css">
-  <link rel="stylesheet" href="/src/css/style.css">
+  <title>aBRACADABRA</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <nav class="navbar">
@@ -31,6 +31,80 @@
     <!-- /.container -->
   </nav>
   <!-- /.navbar -->
-  
+<!-- main секция в которую входит вся страница кроме navbar -->
+  <main>
+    <section class="hero">
+      <!-- Все содержимое сайта помещается внутрь этого контейнера -->
+      <div class="container">
+        <!-- блок-обертка для всего содержимого первой страницы hero-block -->
+        <div class="hero-block">
+          <div class="hero-text">
+            <h1 class="hero-text__title">
+              Внутренняя отделка помещений "под ключ"
+            </h1>
+            <span class="hero-text__subtitle">
+              с гарантией качества, прописанной в договоре
+            </span>
+            <!-- представим, что ul отдельный блок, который можно поставить в любое место сайта-->
+            <ul class="hero-list">
+              <li class="hero-list__item">
+                <div class="hero-list__image">
+                  <img src="/src/img/clock.png" alt="clock">
+                </div>
+                <span class="hero-list__text">Точно соблюдаем сроки</span>
+              </li>
+              <li class="hero-list__item">
+                <div class="hero-list__image">
+                  <img src="/src/img/calculator.png" alt="calcul">
+                </div>
+                  <span class="hero-list__text">Рассчитаем смету на работы и материалы в день обращения</span>
+              </li>
+              <li class="hero-list__item">
+                <div class="hero-list__image">
+                  <img src="/src/img/paint.png" alt="paint">
+                </div>
+                  <span class="hero-list__text">Предложим более 100 вариантов исполнения дизайна Вашего жилья</span>
+              </li>
+            </ul>
+          </div>
+          <!-- /.hero-list -->
+          <div class="hero-image">
+            <img src="/src/img/hero-image.png" alt="План квартиры">
+          </div>
+          <!-- /.hero-image -->
+        </div>
+        <!-- /.hero-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.hero -->
+    <section class="offer section">
+      <div class="container">
+        <!--в offer-block будут находиться все содержимое заголовков, подзаголовков.   -->
+        <div class="offer-block">
+          <h2 class="section-title offer__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!
+          </h2>
+          <!-- /.section-title -->
+          <span class="section-subtitle offer__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!
+          </span>
+          <!-- /.section-subtitle -->
+          <form action="#" class="form offer_form">
+            <input type="text" class="input offer__input" placeholder="Ваше имя">
+            <input type="tel" class="input offer__input" placeholder="Ваш телефон">
+            <button class="button offer__button">Получить бесплатный дизайн-проект
+            </button>
+
+          </form>
+          <!-- /.form offer_form -->
+
+        </div>
+        <!-- /.offer-block -->
+
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.offer -->
+  </main>
+
 </body>
 </html>
